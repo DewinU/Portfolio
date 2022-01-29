@@ -1,99 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="icon" href="static/img/window.png"  type="image/icon type">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
+	<title>Portfolio Dewin Umaña</title>
+	<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+	<link rel="icon" href="static/img/window.png"  type="image/icon type">
+	<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
+	<script src="bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
+	<script src="bower_components/normalize-css/normalize.css" charset="utf-8"></script>
+	<script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
+	<script src="bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
+	<script src="bower_components/custombox/dist/custombox.min.js"></script>
+	<link href="bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
+	<link rel="stylesheet" href="assets/styles/styles.css">
 </head>
+
 <body>
-    <main>
-        <article class="box">
-            <h1>Dewin Umaña</h1>
-            <div><a href="mailto:umana.dewin@gmail.com">umana.dewin@gmail.com</a></div>
-            
-            <section class="box">
-                <h2>
-                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                    Social media
-                </h2>
-                <ul>
-                    <li><a href="https://github.com/DewinU">@DewinU</a></li>
-                    <li><a href="https://linkedin.com/in/DewinU">@DewinU</a></li>
-                    <li><a href="https://twitter.com/UmanaDewin">@UmanaDewin</a></li>
-                </ul>    
-            </section>
-            
-            <section class="box">
-                <div class="education">
-                    <h2>
-                        <i class="fa fa-certificate" aria-hidden="true"></i>
-                        School name
-                    </h2>
-                    <h3>Major</h3>
-                    <ul>
-                        <li>GPA: 4.0</li>
-                        <li>Years</li>
-                    </ul>
-                </div>
-            </section>
+	<!-- Watch how to use it on YouTube -->
+	<!-- https://youtu.be/ddLuZXs8Uyw -->
 
-            <section class="box">
-                <h2>
-                    <i class="fa fa-check" aria-hidden="true"></i>
-                    Skills
-                </h2>
-                <ul>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>Visual Studio Code</li>
-                </ul>
-            </section>
-        </article>
-        <article class="box">
-            <section class="box">
-                <h2>
-                    <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    Experience
-                </h2>
-                <h3>Microsoft Learn Student Ambassador</h3>
-                <ul>
-                    <li>Some skill</li>
-                    <li>Another skill</li>
-                </ul>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-building" aria-hidden="true"></i>
-                    Internships
-                </h2>
 
-                <h3>Company name</h3>
-                <ul>
-                    <li>Accomplishment</li>
-                    <li>Another accomplishment</li>
-                </ul>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
-                    Projects
-                </h2>
-                
-                <h3>Great hackathon xd</h3>
-                <div>This was a great hack!</div>
-                <ul>
-                    <li>Cool technology used</li>
-                    <li>Prize won</li>
-                </ul>
-            </section>
-        </article>
-    
-    </main>
+	<!-- Watch how to deploy it live -->
+	<!-- https://youtu.be/E1dqffpUlMA -->
+	<div class="wrapper">
+		
+
+		<section id="about">
+			<div class="row">
+				<div class="small-12 large-8 large-offset-2 columns text-center">
+					<div class="profile-photo" style="background-image: url(assets/images/profile.png);">
+					</div>
+					<div class="details">
+						<h2>Hi, I'm Dewin. I...</h2><h3><span id="writing-text"><span></h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 column">
+					<div class="cta text-center">
+						<a class="my-button cta-button expand form-button" href="mailto:umana.dewin@gmail.com">Contact me!</a>
+					</div>
+				</div>
+				<div class="small-12 column">
+					<div class="my-arrow-div text-center">
+						<a href="https://github.com/DewinU"><i class="fa fa-github-alt fa-2x"></i></a>
+						<a href="https://instagram.com/dewinhertz"><i class="fa fa-instagram fa-2x"></i></a>
+						<a href="https://gitlab.com/DewinU"><i class="fa fa-gitlab fa-2x"></i></a>
+						<a href="https://www.facebook.com/DewinUmana"><i class="fa fa-facebook fa-2x"></i></a>
+						<a href="https://twitter.com/UmanaDewin"><i class="fa fa-twitter fa-2x"></i></a>
+
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+
+		<section id="experience">
+
+			<div class="row column">
+				<div class="small-12">
+					<h2 class="text-center">My Experience</h2>
+					<p class="text-center tag-line">Not much at all.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 medium-4 columns text-center experience-topics">
+					<i class="fi-laptop"></i>
+					<h3>Front-end</h3>
+					<h4>The basics of:</h4>
+					<ul>
+						<li>html(5)</li>
+						<li>css(3)</li>
+						<li>Javascript</li>
+						<li>Jquery</li>
+						<li>Bootstrap</li>
+					</ul>
+				</div>
+				<div class="small-12 medium-4 columns text-center experience-topics">
+					<i class="fi-database"></i>
+					<h3>Back-end</h3>
+					<h4>A little of:</h4>
+					<ul>
+						<li>SQL | PostgreSQL | MySQL | SQLite</li>
+						<li>Flask | Python</li>
+						<li>Django | Python</li>
+					</ul>
+				</div>
+				<div class="small-12 medium-4 columns text-center experience-topics">
+					<i class="fi-puzzle"></i>
+					<h3>Tools</h3>
+					<ul>
+						<li>Docker</li>
+						<li>Atom</li>
+						<li>Github && Gitlab</li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="work">
+			<h2 class="text-center">Work</h2>
+			<div class="row work-row">
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<img src="assets/images/muneco.png" alt=""><img src="assets/images/code-fu.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-pull-7 columns">
+					<div class="details details-ftm">
+						<p class="platform">Web</p>
+						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<h3>Currently working as a Course Assistant at CS50x.ni</h3>
+						<br>
+						<a class="my-button" target="_blank" href="http://code-fu.net.ni/">Visit Website</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="row work-row">
+				<div class="small-12 medium-6 columns">
+					<img src="assets/images/project2.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-offset-1 columns">
+					<div class="details details-ftm">
+						<h3>AwesomeTechSmth</h3>
+						<p class="platform">Web</p>
+						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p>GreatTechSmth is venenatis porta dolor sit amet vestibulum.</p>
+						<a class="my-button" target="_blank" href="http://google.com">Visit Website</a>
+					</div>
+				</div>
+			</div> -->
+
+			<!-- <div class="row work-row">
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<img src="assets/images/project3.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-pull-7 columns">
+					<div class="details details-ftm">
+						<h3>Suspendisse Cars</h3>
+						<p class="platform">Web</p>
+						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p>Suspendisse Cars pulvinar magna a mattis maximus.</p>
+						<a class="my-button" target="_blank" href="http://google.com">Visit Website</a>
+					</div>
+				</div>
+			</div> -->
+
+		</section>
+
+		<section id="teaching">
+			<h2 class="text-center">Teaching</h2>
+			<div class="row">
+				<div class="small-12 medium-8 medium-offset-2">
+					<p class="text-center tag-line">CS50x.ni is a course sponsored by Fundación Uno in colaboration with Universidad 
+						Nacional de Ingeniería UNI, based on CS50 at Harvard University. 
+						“Introduction to the intellectual enterprises of computer science and the art of programming”.
+					</p>
+
+					<p class="text-center tag-line">Through that course you´ll learn a lot of 
+						amazing stuff such as:
+					</p>
+
+					<div class="teaching-domains">
+					</div>
+
+				</div>
+			</div>
+			<!-- </div>
+			<div class="row">
+				<div class="small-12 medium-8 medium-offset-2 columns">
+					<div class="teaching-domains">
+					</div>
+				</div>
+			</div>	 -->
+		</section>
+
+		<section id="footer-cta">
+			<h2 class="text-center">Wanna work with me?</h2>
+			<p></p>
+			<div class="row text-center">
+				<div class="small-12 medium-8 medium-offset-2 columns">
+					<p class="text-center">I'm currently available for work.</p>
+				</div>
+				<div class="small-12 columns" id="startButtonDiv">
+					<a class="my-button form-button" href="mailto:umana.dewin@gmail.com">Start Now</a>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="row text-center">
+				<div class="small-12 medium-6 medium-offset-3 columns">
+					<p id="logo">DU</p>
+					<p id="copyright">Copyright &copy; 2020 | Dewin  Umana</p>
+					<p id="copyright">Thanks to Jakob Wolitzki for this amazing template.</p>
+				</div>
+			</div>
+		</footer>
+
+
+
+	</div>
+	<script src="assets/scripts/app.js" charset="utf-8"></script>
 </body>
+
 </html>
